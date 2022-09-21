@@ -31,11 +31,30 @@ ul {
     display: flex;
 }
 
+.jus-center{
+    justify-content: center;
+}
+
+/* font color */
+.white-f{
+    color: white;
+}
+
+.grey-f{
+    color: #73767b;
+}
+
+/* padding */
+.pad-1{
+    padding: 1em;
+}
+
+
 
 /* SIDEBAR */
 .sidebar-container{
     height: 100vh;
-    width: 20vw;
+    width: 15vw;
 }
 
 .sidebar{
@@ -47,7 +66,7 @@ ul {
 /* MUSIC */
 .music-container{
     height: 100vh;
-    width: 80vw;
+    width: 85vw;
 }
 
 .transparent-bar{
@@ -60,4 +79,17 @@ ul {
 .music{
     height: 100%;
     background-color: #141922;
+}
+
+li{
+    color: #73767b;
+    padding: 1em;
+}
+
+/* card */
+.card{
+    background-color: blanchedalmond;
+    height: 40vh;
+    width: 20vw;
+    margin-right: .5em;
 }
