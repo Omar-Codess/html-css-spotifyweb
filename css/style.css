@@ -24,3 +24,16 @@ img{
 ul {
     list-style-type: none;
 }
+
+/* SIDEBAR */
+.sidebar-container{
+    height: 100vh;
+    width: 20vw;
+}
+
+.sidebar{
+    height: 100%;
+    background-color:black ;
+}
+
+MUSIC
