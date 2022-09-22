@@ -68,6 +68,10 @@ ul {
     margin-top: 3em;
 }
 
+.mt-4{
+    margin-top: 4em;
+}
+
 .m-0-auto{
     margin: 0 auto;
 }
@@ -75,6 +79,14 @@ ul {
 
 
 /* SIDEBAR */
+ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+ul li{
+    padding: 0;
+}
 .sidebar-container{
     height: 100vh;
     width: 20vw;
@@ -88,8 +100,8 @@ ul {
 }
 
 .sidebar-logo{
-    height: 50px;
-    width: 110px;
+    height: 70px;
+    width: 150px;
 }
 
 .sidebar p{
@@ -130,7 +142,6 @@ li{
 
 /* card */
 .card{
-    background-color: blanchedalmond;
     height: 40vh;
     width: 20vw;
     margin-right: .5em;
@@ -153,19 +164,19 @@ li{
 }
 
 #card-2-1{
-    width: 13.2vw;
+    width: 12.6vw;
 }
 
 #card-2-2{
-    width: 13.2vw;
+    width: 12.6vw;
 }
 
 #card-3-1{
-    width: 13.2vw;
+    width: 12.6vw;
 }
   
 #card-3-2{
-    width: 13.2vw;
+    width: 12.6vw;
 }
 /* DOWN-BAR */
 .down-bar{
