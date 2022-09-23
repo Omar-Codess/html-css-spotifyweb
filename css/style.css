@@ -283,6 +283,12 @@ li{
     width: calc(50%);
 }
 
+.up.flex.jus-center i{
+    font-size: 1.4rem;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
 .down-bar-middle .down hr{
     height: 4px;
     background-color: #73767b;
