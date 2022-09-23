@@ -158,6 +158,18 @@ hr{
     opacity: 0.3;
     height: 15vh;
     width: 85vw;
+    position: relative;
+}
+
+.transparent-bar a{
+    text-decoration: none;
+    padding: .7em;
+    border-radius: 30px;
+    border: solid 2px white;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    font-weight: 600;
 }
 
 .music{
