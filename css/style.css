@@ -227,4 +227,29 @@ li{
     position: fixed;
     bottom: 0;
     left: 0;
+    display: flex;
+    justify-content: space-between;
 }
+
+.down-bar-left{
+    height: 100%;
+    width: calc(20%);
+}
+
+.left-image{
+    height: 60px;
+    width: 60px;
+}
+
+.down-bar-middle{
+    height: 100%;
+    width: calc(50%);
+    background-color: aqua;
+}
+
+.down-bar-right{
+    height: 100%;
+    width: calc(20%);
+    background-color: azure;
+}
+
