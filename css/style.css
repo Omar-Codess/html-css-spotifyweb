@@ -88,6 +88,18 @@ ul {
     padding-left: 1em;
 }
 /* margin */
+.mr-0{
+    margin-right: 0;
+}
+
+.mr-08{
+    margin-right: .8em;
+}
+
+.mt-08{
+    margin-top: 0.8em;
+}
+
 .mt-1{
     margin-top: 1em;
 }
@@ -108,7 +120,9 @@ ul {
     margin: 0 auto;
 }
 
-
+.mb{
+    margin-bottom: .5em;
+}
 
 /* SIDEBAR */
 ul li img{
@@ -292,7 +306,7 @@ li{
 .down-bar-middle .down hr{
     height: 4px;
     background-color: #73767b;
-    width: 70%;
+    width: 60%;
     border: none;
     border-radius: 10px;
 }
@@ -308,4 +322,35 @@ li{
     width: 40%;
     border: none;
     border-radius: 10px;
+}
+
+.down hr{
+    margin: 0 auto;
+}
+
+.down span{
+    line-height: 10px;
+    vertical-align: middle;
+}
+
+.down{
+    position: relative;
+}
+
+.p-ab-right{
+    position: absolute;
+    top: 17px;
+    right: 50px;
+}
+
+.p-ab-left{
+    position: absolute;
+    top: 17px;
+    left: 40px;
+}
+
+
+
+@media screen and (max-width: 1100px){
+    
 }
