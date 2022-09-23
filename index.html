@@ -22,11 +22,11 @@
                             <img src="img/logo.svg" alt="">
                         </div>
 
-                        <div>
+                        <div class="sidebar-content">
                             <ul>
                                 <li>
                                     <img src="img/home.svg" alt="">
-                                    <span>Home</span>
+                                    <span class="white-f">Home</span>
                                 </li>
                                 <li>
                                     <img src="img/search.svg" alt="">
@@ -38,8 +38,8 @@
                                 </li>
                             </ul>
 
-                            <ul>
-                                <li>PLAYLIST</li>
+                            <ul class="mt-1">
+                                <li class="fw-600 white-f">PLAYLIST</li>
                                 <li><i class="fa-solid fa-square-plus"></i>Crea Playlist</li>
                                 <li>Nome playlist</li>
                                 <li>Nome playlist</li>
@@ -68,12 +68,12 @@
                         </div>
                         <nav>
                             <ul class="flex jus-center pad-1">
-                                <li>IN EVIDENZA</li>
-                                <li>PODCAST</li>
-                                <li>CLASSIFICHE</li>
-                                <li>GENERI E MOOD</li>
-                                <li>NUOVE USCITE</li>
-                                <li>SCOPRI</li>
+                                <li class="fw-600">IN EVIDENZA</li>
+                                <li class="fw-600">PODCAST</li>
+                                <li class="fw-600">CLASSIFICHE</li>
+                                <li class="fw-600">GENERI E MOOD</li>
+                                <li class="fw-600">NUOVE USCITE</li>
+                                <li class="fw-600">SCOPRI</li>
                             </ul>
                         </nav>
 
@@ -190,28 +190,48 @@
 
             <div class="down-bar">
 
-                <div class="down-bar-left flex">
-                    <div class="left-image">
-                        <img src="img/sinister.jpeg" alt="">
+                <div class="down-bar-left flex al-center jus-inherit">
+                    <div class="flex al-center">
+                        <div class="left-image pad-left-1 flex al-center">
+                            <img src="img/sinister.jpeg" alt="">
+                        </div>
+                        <div class="left-text pad-left-1">
+                            <h4 class="white-f">Sinister</h4>
+                            <span class="grey-f">Brano Nome</span>
+                        </div>
                     </div>
-                    <div class="left-text">
-                        <h4 class="white-f">Sinister</h4>
-                        <span class="grey-f">Brano Nome</span>
-                    </div>
-                    <div class="left-icons">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-regular fa-folder"></i>
+                    <div class="flex al-center jus-end">
+                        <div class="left-icons">
+                            <i class="fa-regular fa-heart grey-f"></i>
+                            <i class="fa-regular fa-folder grey-f"></i>
+                        </div>
                     </div>
                 </div>
 
                 <div class="down-bar-middle">
-                    <div>
-
+                    <div class="up">
+                        <i class="fa-solid fa-shuffle white-f"></i>
+                        <i class="fa-solid fa-backward-step white-f"></i>
+                        <i class="fa-regular fa-circle-play white-f"></i>
+                        <i class="fa-solid fa-forward-step white-f"></i>
+                        <i class="fa-solid fa-arrow-rotate-right white-f"></i>
+                    </div>
+                    <div class="down">
+                        <span>0.25</span>
+                        <span><hr></span>
+                        <span>4.35</span>
                     </div>
                 </div>
-                <div class="down-bar-right">
 
+                <div class="down-bar-right">
+                    <div class="right-icons">
+                        <i class="fa-solid fa-bars white-f"></i>
+                        <i class="fa-solid fa-desktop white-f"></i>
+                        <i class="fa-solid fa-volume-high white-f"></i>
+                        <hr>
+                    </div>
                 </div>
+
             </div>
         </main>
     </div>
