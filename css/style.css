@@ -351,6 +351,14 @@ li{
 
 
 
-@media screen and (max-width: 1100px){
-    
+@media screen and (max-width: 700px){
+    .sidebar-logo{
+        height: 50px;
+        width: 120px;
+    }
+
+    .resp-700{
+        font-size: .8rem;
+    }
 }
+
